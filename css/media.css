@@ -1,0 +1,161 @@
+@media(max-width: 767px)and (min-device-pixel-ratio: 2),(max-width: 767px)and (-webkit-min-device-pixel-ratio: 2),(max-width: 767px)and (min-resolution: 192dpi),(max-width: 767px)and (min-resolution: 2dpx) {
+    .hero {
+        background-image:url("../img/tui-insel-duell-main-teaser_@2x.avif")
+    }
+}
+
+@media(min-width: 768px)and (min-device-pixel-ratio: 2),(min-width: 768px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 768px)and (min-resolution: 192dpi),(min-width: 768px)and (min-resolution: 2dpx) {
+    .hero {
+        background-image:url("../img/tui-insel-duell-main-teaser_@2x.avif")
+    }
+}
+@media screen and (max-width: 768px) {
+    .mobile-menu {
+        display:block;
+    }
+    body {
+        margin-top:47px;
+    }
+    .hero {
+        background-image: url("../img/tui-insel-duell-main-teaser.avif")
+    }
+    .hero-title {
+        text-shadow:2px 2px 2px rgba(0,0,0,.27)
+    }
+    .nav-footer--link {
+        font-size:16px;
+    }
+    .section-content-image--wrapper {
+        overflow-x:scroll;
+    }
+
+    .section-content-image--wrapper img {
+        width: 200%;
+    }
+}
+@media screen and (min-width: 600px){
+    .icon-card-wrapper{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 50px 100px;
+    }
+    .swiper-pagination-bullet {
+        height: 20px !important;
+        width: 20px !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .section {
+        padding: 80px 0;
+    }
+    .custom-image-margin {
+        margin-bottom: 80px;
+    }
+    .pt-60 {
+        padding-top: 80px!important;
+    }
+    .mb-60 {
+        margin-bottom: 80px!important;
+    }
+    .mobile-menu {
+        height:40%;
+    }
+    .mobile-menu__bar {
+        display:none;
+    }
+    .hamburger {
+        top:11px;
+        right: 52px;
+        display:none;
+    }
+    .container {
+        margin-left:auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .hero {
+        background-image:url("../img/tui-insel-duell-main-teaser.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 466px;
+    }
+    .logo-hero {
+        display:block;
+    }
+
+    .hero-title {
+        font-size: 50px
+    }
+
+    .hero-title span {
+        font-size: 36px
+    }
+    .nav {
+        display:-webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .section-bottom{
+        margin-bottom: 120px;
+    }
+    .figure-regular{
+        flex-direction: row;
+        gap: 40px;
+    }
+}
+@media (min-width:1000px) {
+    .section-figure {
+        display: flex;
+        align-items: center
+    }
+
+    .section-figure img, .section-figure picture {
+        width: auto;
+    }
+
+    .section-figure__caption {
+        max-width: 531px;
+        position: absolute;
+        left: 16px;
+        padding: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media(min-width: 1200px) {
+    .section-title {
+        font-size:30px;
+    }
+    .container {
+        max-width:1116px;
+    }
+    .container_small {
+        max-width: 932px
+    }
+    .hero {
+        background-image:url("../img/tui-insel-duell-main-teaser.avif");
+    }
+    .hero-title {
+        max-width:1100px;
+    }
+    .nav-list--link {
+        line-height: 19px;
+    }
+    .swiper {
+        height:853px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: flex!important;
+    }
+}
+
+@media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dpx) {
+    .hero {
+        background-image:url("../img/tui-insel-duell-main-teaser.avif")
+    }
+}

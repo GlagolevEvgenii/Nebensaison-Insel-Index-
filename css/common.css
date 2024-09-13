@@ -1,0 +1,189 @@
+*,::after,::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+
+@font-face {
+    font-family: tuitype-light;
+    src: url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-regular.woff2") format("woff2"),url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: tuitype-light;
+    src: url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-bold.woff2") format("woff2"),url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: tuitype-light;
+    src: url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-italic.woff2") format("woff2"),url("https://cloud.tui.com/ui/ui-assets/v1/fonts/tuitypelight-italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap
+}
+
+body {
+    font-family: tuitype-light,Helvetica,sans-serif;
+    letter-spacing: 0px;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #092a5e;
+    font-weight: 400;
+    min-width: 320px;
+    margin: 0;
+}
+
+body.is-open {
+    overflow: hidden
+}
+main {
+    position: relative
+}
+
+abbr[title] {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+table {
+    text-indent: 0;
+    border-color: inherit
+}
+
+button,input,optgroup,select,textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,select {
+    text-transform: none
+}
+
+[type=button],[type=reset],[type=submit],button {
+    -webkit-appearance: button
+}
+
+image {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.icon {
+    fill: currentColor
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden
+}
+
+.section {
+    position: relative;
+    padding: 60px 0;
+}
+.section-gradient {
+    background: linear-gradient(180deg, #A3DDF8 0%, rgba(163, 221, 248, 0.40) 49%, #A3DDF8 100%);
+}
+
+.hidden {
+    display: none
+}
+.text--underline {
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #70cbf4;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out
+}
+.text-center{
+    text-align: center;
+}
+
+.text--underline:hover,.text--underline:focus,.text--underline:active {
+    color: #061e46;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01)
+}
+.image--padding-top {
+    padding-top: 30px
+}
+.swiper-button-next, .swiper-button-prev {
+    width: 20px !important;
+    height: 32px !important;
+    display: none!important;
+}
+.swiper-button-next img, .swiper-button-prev img  {
+    width: 20px !important;
+    height: 32px !important;
+    display: block;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: auto !important;
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #E2F3FE !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #70CBF4 !important;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+}
