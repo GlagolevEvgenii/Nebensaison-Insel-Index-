@@ -11,8 +11,8 @@ const embedEngine = {
                 clickable: true,
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: '.swiper-next',
+                prevEl: '.swiper-prev',
             },
             breakpoints: {
                 320: {
