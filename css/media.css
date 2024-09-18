@@ -105,9 +105,18 @@
     }
 }
 @media (min-width:1000px) {
+    .item-slider-content {
+        padding: 25px 38px;
+    }
+    .list-item{
+        gap:10px;
+        font-size: 18px;
+    }
     .section-figure {
-        display: flex;
-        align-items: center
+       flex-direction: row;
+        align-items: center;
+        margin: 40px 0 0;
+        gap:0;
     }
 
     .section-figure img, .section-figure picture {
