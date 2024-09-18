@@ -395,15 +395,70 @@ strong {
 .rounded {
     border-radius: 10px
 }
-.figure-regular{
+
+.figure-block{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin: 0;
+    margin: 50px 0 80px;
 }
-.figure-regular img,.figure-regular picture{
-    flex-shrink: 0;
+.figure-block img, .figure-block picture {
+    max-width: 98%;
+    width: 100%;
+    margin-right: auto;
+    min-height: 370px;
+    object-fit: cover;
 }
+
+.figure-block--caption{
+    padding: 22px 12px;
+    background-color: #E2F3FE;
+    width: 96%;
+    margin-top: -95px;
+    position: relative;
+    right: -16px;
+}
+.figure-block--caption{
+    padding: 22px 12px;
+    background-color: #E2F3FE;
+    width: 96%;
+    margin-top: -95px;
+    position: relative;
+    right: -16px;
+}
+.polygon{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.polygon:before{
+    content: '';
+    width: 164px;
+    height: 86px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top:-14px;
+    background-image: url("../img/polygon-mob.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.caption-title{
+    color: #092A5E;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 121.429% */
+}
+.caption-subtitle{
+    color: #092A5E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
 .section-gray {
     background-color: #F3F0EC;
     padding: 60px 0;
